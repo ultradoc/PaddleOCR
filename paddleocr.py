@@ -52,6 +52,7 @@ from ppocr.utils.network import maybe_download, download_with_progressbar, is_li
 from tools.infer.utility import draw_ocr, str2bool, check_gpu
 from ppstructure.utility import init_args, draw_structure_result
 from ppstructure.predict_system import StructureSystem, save_structure_res, to_excel
+from tools.infer import predict_system
 
 logger = get_logger()
 __all__ = [
