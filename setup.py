@@ -14,8 +14,8 @@
 
 from setuptools import setup
 from io import open
-from paddleocr import VERSION
-
+# from paddleocr import VERSION
+VERSION="2.7.0.2"
 def load_requirements(file_list=None):
     if file_list is None:
         file_list = ['requirements.txt']
